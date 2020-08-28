@@ -1,30 +1,30 @@
 public class Calc {
-	public double A;
-	public double B;
+	public double a;
+	public double b;
 
 	public Calc(double a, double b) {
-		A = a;
-		B = b;
+		this.a = a;
+		this.b = b;
 	}
 
-	public double Addition() {
-		double Result = A + B;
-		return Result;
+	public double addition() {
+		double result = this.a + this.b;
+		return result;
 	}
 
-	public double Subtraction() {
-		double Result = A - B;
-		return Result;
+	public double subtraction() {
+		double result = this.a - this.b;
+		return result;
 	}
 
-	public double Multiplication() {
-		double Result = A * B;
-		return Result;
+	public double multiplication() {
+		double result = this.a * this.b;
+		return result;
 	}
 
 	public double Division() {
-		double Result = A / B;
-		return Result;
+		double result = this.a / this.b;
+		return result;
 	}
 
 	public String toString() {
